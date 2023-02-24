@@ -1,0 +1,9 @@
+/*
+Connect the nodes: You need to connect the media stream 
+source to the analyzer node, and then connect the analyzer 
+node to the destination, which is typically the computer's 
+speakers or headphones. This can be done using the connect() method of the AudioNode object, like this:
+*/
+
+source.connect(analyzer);
+analyzer.connect(audioContext.destination);

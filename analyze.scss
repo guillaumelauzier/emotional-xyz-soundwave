@@ -1,4 +1,10 @@
 /*
+
+Analyze the audio data: Finally, you can analyze the audio data in real-time 
+by calling the getFloatFrequencyData() method of the analyzer node, which 
+returns an array of frequency data in decibels. You can then use this data 
+to detect emotional content, as described in the previous answer.
+
 This function creates an audio context, creates a media stream source, 
 creates an analyzer node, connects the nodes, and then continuously 
 analyzes the frequency data using the requestAnimationFrame() method. 

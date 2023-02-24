@@ -4,7 +4,7 @@ In this example code, we create a sine wave with a fixed frequency of 440 Hz, an
 
 Note that this is a basic example and you may need to modify it to achieve the desired effect, such as by adding effects, adjusting the panning range or sensitivity, or using a more sophisticated synthesis method.
 
--
+-------------
 Speech Analysis .cpp
 
 C++ code for speech analysis using the Fast Fourier Transform (FFT) algorithm to extract the frequency domain features of an audio signal. This code computes the Short-Time Fourier Transform (STFT) of an audio signal, which is a sequence of FFTs of short, overlapping segments of the signal. The resulting STFT matrix can be used to extract features such as pitch, intensity, and spectral shape, which can be used to detect emotional content.
